@@ -1,0 +1,477 @@
+/* div{
+    height:380px;
+    width:125px;
+    background-color:aqua;
+}
+#box1{
+    height:100px;
+    width:100px;
+    background-color:green;
+    border-radius:50%;
+    margin-bottom:25px;
+}
+#box2{
+    height:100px;
+    width:100px;
+    background-color:red;
+    border-radius:50%;
+    margin-bottom:25px;
+
+}
+#box3{
+    height:100px;
+    width:100px;
+    background-color:yellow;
+    border-radius:50%;
+} */
+ /* *{
+    padding:0;
+    margin:0;
+    text-transform:capitalize;
+    height:25px;
+}
+ #navigation{
+     height:60px;
+    background-color:black;
+    }
+ #logo{
+    font-size:20px;
+    color:chocolate;
+ }
+ #search{
+    background-color:white;
+    color:gray;
+ }
+ button{
+    background-color:chocolate;
+ }
+ a{
+    color:white;
+    margin:20px;
+ } 
+  .contentbox{
+    height:100px;
+    width:100px;
+  } */
+  /* div{
+    background-color:aqua;
+    display:inline-block;
+    text-transform:capitalize;
+    height:100px;
+    width:100px;
+  }
+  #box1{
+    background-image:url("cat_photo.jfif");
+    background-size:cover;
+  } */
+   /* body{
+    text-align:center;
+   }
+   div{
+    height:100px;
+    width:500px;
+    display:inline-block;
+    border:2px solid black;
+
+   }
+   #container{
+    height:500px;
+    width:800px;
+    display:flex;
+    flex-direction:row;
+   }
+   #box1{
+    background-color:aqua;
+   }
+   #box2{
+    background-color:green;
+   }
+   #box3{
+    background-color:blue;
+   }
+   #box4{
+    background-color:brown;
+   }
+   #box5{
+    background-color:crimson;
+   } */
+    /* .navbar{
+      background-color:pink;
+      display:flex;
+      justify-content:space-evenly;
+    }
+    a{
+      text-decoration:none;
+      color:red;
+    }
+    li{
+      text-transform: capitalize;
+      list-style-type:none;
+
+    }
+    .outer{
+      height:400px;
+      width:400px;
+      background-color: blue;
+      display:flex;
+      justify-content: center;
+      align-items:center;
+    }
+    .inner{
+      height:100px;
+      width:100px;
+      background-color:blueviolet;
+
+    }
+     */
+     /* div{
+      height:100px; */
+      /* width:100px;
+      border-radius:50%;
+      text-transform: capitalize;
+      background-color:aqua;
+      border:2px solid black;
+      position:absolute;
+      top:100px;
+      left:100px;
+      animation:colorAnimate 4s ease-in 1s infinite normal;
+      /* transition:all 2s ease-in;
+      animation-name:colorAnimate;
+      animation-duration: 0.25s;
+      animation-delay: 0s;
+      animation-iteration-count:infinite; */
+     /* }
+     @keyframes colorAnimate{
+      0%{
+        left:0px;
+        background-color:yellow;
+      }
+      50%{
+        background-color:blue;
+      }
+      100%{
+        left:200px;
+        background-color:red;
+        color:white;
+      }
+     } */ 
+
+     /* @keyframes colorAnimate
+         0%{
+              left:0px;
+  background-color:yellow;
+}
+      /* from{left:0px;}
+      to{rigtht:200px;}
+     /* div:hover{
+      transform:scale(2);
+     }
+      */ 
+    /* .loader{
+      height:100px;
+      width:100px;
+      border-radius:50%;
+      border:20px solid blue;
+      border-top:20px solid black;
+      background-color:pink;
+      animation:spinanimate 3s ease-in-out 0s infinite normal;
+    }  
+    @keyframes spinanimate{
+      from{
+        transform:rotate(0deg);
+      }
+      to{
+        transform:rotate(360deg);
+      }
+    } */
+/*      
+    
+    *{
+      margin:0;
+      font-family:Arial;
+      border:border-box;
+      display:flex;
+    }
+    .navbar{
+      height:60px;
+      background-color:black;
+      color:white;
+      display:flex;
+      justify-content:space-evenly;
+    }
+    .nav-logo{
+      height:50px;
+      width:100px;
+    }
+    .logo{
+      background-image:url("amazon.logo.png");
+      background-size:cover;
+      height:30px;
+      margin-top:15px;
+      width:100px;
+    }
+    .border{
+      border:1.5px solid black;
+    }
+    .border:hover{
+      border:1.5px solid white;
+    }
+    .add-first{
+      color:#cccccc;
+      font-size:0.55 rem;
+      margin-left:15px;
+      margin-top:15px;
+    }
+    .add-second{
+      font-size:0.85 rem;
+      margin-left:3px;
+    }
+    .add-icon{
+      display:flex;
+      align-items:center;
+    }
+    .nav-search{
+      display:flex;
+      background-color:pink;
+      width:350px;
+      height:40px;
+      border-radius:4px;
+      justify-content: space-evenly;
+      margin-top:10px;
+      border:none;
+    }
+    .search-select{
+      background-color:#f3f3f3;
+      width:50px;
+      text-align:center;
+      border-top-left-radius:4px;
+      border-bottom-left-radius:4px;
+      border:none;
+      border-right:none;
+    }
+    .Search-icon{
+      width:100px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      font-size:1.2 rem;
+      background-color:rgb(255, 128, 0);
+      border-top-right-radius:4px;
+      border-bottom-right-radius:4px;
+      color:black;
+    }
+    .Search-input{
+      width:720px;
+      font-size:1 rem;
+      border:none;
+    }
+    span{
+      font-size:0.7 rem;
+      }
+    .nav-cart i{
+      font-size:30px;
+
+    }  
+    .nav-cart{
+      font-size:35px;
+      display:flex;
+    } */
+/* Reset Styles */
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232f3e;
+  padding: 15px 20px;
+  color: white;
+}
+
+/* ChitChat Logo */
+.nav-logo h2 {
+  color: #ff9900;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Search Bar */
+.nav-search {
+  display: flex;
+  width: 40%;
+}
+
+.nav-search input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+.nav-search button {
+  background-color: #febd69;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+/* Navigation Links */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.nav-links a i {
+  font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('hero_image.jpg');
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero-text .btn {
+  background-color: #ff9900;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+/* Product Grid */
+.products {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.product {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+}
+
+.product h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.product p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.product button {
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+/* Footer Styling */
+.footer {
+  background-color: #232f3e;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Footer Container */
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+}
+
+/* Footer Links */
+.footer-links h3,
+.footer-social h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 5px 0;
+}
+
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Social Media Icons */
+.footer-social a {
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  color: #ff9900;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  width: 100%;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
